@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap4/css/bootstrap.min.css">
+    <title>Bootstrap - Tamnho e Bordas</title>
+</head>
+<body style="margin-bottom: 200px; width: 600px; margin: 0 auto;">
+    <!--
+    Classes de largura
+    w = width
+    w-25 = 25% largura da tela
+    w-50 = 50% largura da tela
+    w-75 = 75% largura da teka
+    w-100 = 100% Largura da tela
+    w-auto = Largura automatica
+    -->
+    <div class="bg-primary w-25">width 25%</div>
+    <div class="bg-primary w-50">width 50%</div>
+    <div class="bg-primary w-75">width 75%</div>
+    <div class="bg-primary w-100">width 100%</div>
+    <div class="bg-primary w-a">width auto</div>
+    <br><br><br>
+
+    <!--
+    Classes de altura
+    h-25 = 25% da altura
+    h-50 = 50% da altura
+    h-75 = 75% da altura
+    h-100 = 100% da altura
+    h-auto = altura automatica
+    -->
+    <div style="height: 300px; border: 1px solid black;">
+        <div class="bg-warning d-inline-block h-25">Height 25%</div>
+        <div class="bg-warning d-inline-block h-50">Height 50%</div>
+        <div class="bg-warning d-inline-block h-75">Height 75%</div>
+        <div class="bg-warning d-inline-block h-100">Height 100%</div>
+        <div class="bg-warning d-inline-block h-auto">Height Auto</div>
+    </div><br><br><br>
+
+    <!--Bordas 
+    border = Todas as bordas
+    border-top = bordas no topo
+    border-bottom = bordas inferior
+    border-right (end) = bordas direita
+    border-left (start) = bordas esquerda
+
+    cores de bordas
+    border-<cor>: primary, secondary, success, info, warning, danger, light, dark, white
+    -->
+    <div class="bg-white mb-3 border border-danger">Todas as bordas</div>
+    <div class="bg-white mb-3 border-top border-warning">bordas superiores</div>
+    <div class="bg-white mb-3 border-bottom border-success">bordas inferiores</div>
+    <div class="bg-white mb-3 border-right border-primary">bordas direitas</div>
+    <div class="bg-white mb-3 border-left border-dark">bordas esquerda</div> <br><br><br>
+
+    <!--Border Radius
+    opções: rounded, rounded-top, rounded-right, rounded-left, rounded-circle
+    -->
+
+    <div class="bg-warning mb-2 border rounded">Rounded</div>
+    <div class="bg-warning mb-2 border rounded-top">Rounded Topo</div>
+    <div class="bg-warning mb-2 border rounded-right">Rounded Direita</div>
+    <div class="bg-warning mb-2 border rounded-left">Rounded Esquerda</div>
+    <div class="bg-warning mb-2 border rounded-circle p-5 w-25">Rounded Circle</div>
+</body>
+</html>
